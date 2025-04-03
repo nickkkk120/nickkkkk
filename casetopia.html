@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casetopia</title>
+    <style>
+        body 
+        
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightpink;
+            text-align: center;
+
+        }
+
+        header {
+            background-color: transparent;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            margin: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background: transparent;
+            margin: 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav ul li {
+            position: relative;
+            display: inline-block;
+            padding: 10px 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li:hover {
+            background: #fb607f;
+        }
+
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background: pink;
+            left: 0;
+            top: 40px;
+            width: 180px;
+            text-align: left;
+            padding: 0;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: inline-block;
+        }
+
+        .dropdown-menu li {
+            display: block;
+            padding: 10px;
+        }
+
+        .dropdown-menu li:hover {
+            background: #fb607f;
+        }
+
+        .section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            display: inline-block;
+            width: 80%;
+        }
+
+        .section h2 {
+            color: lightpink;
+        }
+
+        .categories, .models, .navigation {
+            margin-top: 15px;
+        }
+
+        button {
+            background: #ffcad2 ;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #fb607f;
+        }
+        
+
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Casetopia.com
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Homepage</a></li>
+            <li class="dropdown">
+                <a href="#">Account</a>
+                <ul class="dropdown-menu">
+                   <li><a href= "file:///E:/CALADO%20WST%20BSIT%202E/login.html">Sign up here</a></li>
+                   <li><a href= "https://www.facebook.com/login.php/">Continue with</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Reviews</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Variations</a></li>
+                    <li><a href="#">Images & Videos</a></li>
+                    <li><a href="#">Comments</a></li>
+                    <li><a href="#">Ratings</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">About</a>
+                <ul class="dropdown-menu">
+                    <li><a href="file:///C:/Users/USER/Desktop/Calado/Casetopia/Log%20in/log%20in/about.html">Our Story</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="section">
+        <h2>Main Section</h2>
+        <div class="categories">
+            
+            <button onclick="location.href='file:///C:/Users/USER/Desktop/Calado/Casetopia/Log%20in/log%20in/phone%20model.html'">Iphone
+    </button>
+            <button onclick="location.href='file:///C:/Users/USER/Desktop/Calado/Casetopia/Log%20in/log%20in/phone%20model.html'">Google
+   
+    </section>
+
+  
+</body>
+</html>
